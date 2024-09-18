@@ -64,12 +64,12 @@ const Footer = () => {
             <HiOutlineMailOpen size={20} />
 
             <Link href="mailto:admin@decenterai.com">
-              <p className="font-archivo pt-1">Admin@decenterai.com</p>
+              <p className="font-archivo">Admin@decenterai.com</p>
             </Link>
           </div>
           <div className="flex space-x-8 items-center  text-primary_8 mt-10">
             <HiOutlineLocationMarker size={20} className="text-primary_8" />
-            <p className="font-archivo pt-1">Sydney, Australia</p>
+            <p className="font-archivo">Sydney, Australia</p>
           </div>
           <div className="flex space-x-8 text-primary_8  py-10 md:hidden">
             {/* <Link href=""><PiDiscordLogoBold size={25} /></Link> */}
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="font-archivo font-semibold flex space-x-8 justify-end mt-6 text-primary_8 w-full m:w-[50%]">
           <p>Privacy</p>
           <p>Policy</p>
-          <p>TermsandCondition</p>
+          <p>Terms and Condition</p>
         </div>
       </div>
     </section>
