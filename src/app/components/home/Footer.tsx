@@ -28,7 +28,7 @@ const Footer = () => {
               />
             </Link>
           </div>
-          <div className=" hidden md:flex space-x-8 text-primary_8 absolute bottom-0">
+          <div className=" hidden md:flex space-x-8 text-primary_8 mt-20">
             {/* <Link href=""><PiDiscordLogoBold size={25} /></Link> */}
             <Link href="https://www.linkedin.com/company/decenter-ai/" target="_blank">
               <AiOutlineLinkedin size={25} />
@@ -56,19 +56,21 @@ const Footer = () => {
             <p className="text-sm md:text-lg text-left md:text-center pt-1">Team</p>
           </Link>
         </div>
+
+
         <div className="w-full md:w-[25%] text-primary_7 font-archivo ">
           <Link href="#contact">
             <p className="text-sm md:text-lg    pt-1">Contact US</p>
           </Link>
-          <div className="flex space-x-8 items-center text-primary_8 mt-10">
-            <HiOutlineMailOpen size={20} />
+          <div className="flex space-x-2 items-center text-primary_8 mt-4">
+            <HiOutlineMailOpen size={24} />
 
             <Link href="mailto:admin@decenterai.com">
-              <p className="font-archivo">Admin@decenterai.com</p>
+              <p className="font-archivo font-normal">Admin@decenterai.com</p>
             </Link>
           </div>
-          <div className="flex space-x-8 items-center  text-primary_8 mt-10">
-            <HiOutlineLocationMarker size={20} className="text-primary_8" />
+          <div className="flex space-x-2 items-center  text-primary_8 mt-4">
+            <HiOutlineLocationMarker size={24} className="text-primary_8" />
             <p className="font-archivo">Sydney, Australia</p>
           </div>
           <div className="flex space-x-8 text-primary_8  py-10 md:hidden">
