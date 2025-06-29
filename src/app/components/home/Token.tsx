@@ -15,7 +15,6 @@ const Token = () => {
             Dcen tokens
           </h2>
 
-
           <div className="mt-12 md:mt-20 font-archivo text-base md:text-lg">
             <div className="py-2 pb-11 relative border-l  border-primary_8 ml-2   px-6">
               <div className="absolute -top-7 -left-3 p-1 border border-primary_8 rounded-full bg-primary_13 ">

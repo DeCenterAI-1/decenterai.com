@@ -305,10 +305,8 @@ const Features = () => {
             <div className="w-full md:w-[50%]  ">
               <h2
                 ref={vRef4}
-
-                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose">
-
-
+                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose"
+              >
                 Just Curious About AI?
               </h2>
 
