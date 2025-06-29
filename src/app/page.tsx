@@ -20,8 +20,8 @@ export default function Home() {
       <Demo />
       <Features />
       <Token />
-      <Team />
       <WorkFlow />
+      <Team />
       <Mail />
       {/* <Action /> */}
       <Footer />
