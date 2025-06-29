@@ -42,8 +42,8 @@ const Hero = () => {
       className="min-h-[70vh] md:min-h-[80vh flex justify-end relative z-10"
     >
       {menu && (
-        <div className="absolute top-0 w-full  z-50">
-          <div className=" w-[90%] h-[70vh] z-50  bg-primary_12  m-auto mt-2 border border-primary_8  rounded-xl shadow-[0px_-2px_16px_0px_#4a5568] py-6 px-4 text-primary_1">
+        <div className={`fixed top-0 w-full z-[10000] ${sticky ? 'mt-0' : ''}`}>
+          <div className="w-[90%] h-[70vh] bg-primary_12 m-auto mt-2 border border-primary_8 rounded-xl shadow-[0px_-2px_16px_0px_#4a5568] py-6 px-4 text-primary_1">
             <div className="h-[10%] flex">
               <div className="w-[50%] h-full  relative">
                 <Link href="/">
@@ -88,9 +88,9 @@ const Hero = () => {
               </ul>
             </div>
             <div className="h-[20%] text-center cursor-pointer">
-              <Link target="_blank" href="https://node.decenterai.com/">
+              <Link target="_blank" href="https://form.typeform.com/to/oGnlAAyV">
                 <button className="bg-primary_11 w-full text-xs md:text-sm text-primary_1 font-semibold font-primaryArchivo py-2 px-3 cursor-pointer rounded-full hover:bg-primary_11/90 transition-colors">
-                  Launch Dapp
+                  Get Started
                 </button>
               </Link>
             </div>
