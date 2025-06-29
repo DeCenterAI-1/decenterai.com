@@ -76,7 +76,9 @@ const About = () => {
       <div className="flex w-[80%] mx-auto relative  h-[90%] ">
         <div className="absolute flex flex-col md:flex-row inset-0 gap-y-4 md:gap-x-4 h-full  items-center justify-center z-50 ">
           <div className="w-full md:w-[40%] backdrop-blur-md px-10 py-10 min-h-[100px] h-[390px] flex flex-col justify-center border border-primary_11 bg-opacity-90 rounded-xl text-primary_1">
+
             <h3 className="font-logirentBold text-lg md:text-2xl lg:text-3xl">Web3 Powered</h3>
+
             <ul className="font-archivo text-xs md:text-sm font-normal mt-4 md:mt-6 list-disc pl-6">
               <li>Distributed Storage and Compute Networks</li>
               <li>Enhanced Data Privacy and User Control</li>
@@ -85,7 +87,9 @@ const About = () => {
           </div>
 
           <div className="w-full md:w-[40%]  px-10 py-10 min-h-[100px] h-[390px] flex flex-col justify-center backdrop-blur-md border border-primary_11 bg-opacity-90 rounded-xl text-primary_1">
+
             <h3 className="font-logirentBold text-lg md:text-2xl lg:text-3xl">AI Enabled</h3>
+
             <ul className="font-archivo text-xs md:text-sm font-normal mt-4 md:mt-6 list-disc pl-6">
               <li>Adaptive and Proactive Resource Management</li>
               <li>Automated Workflows, Logic, and Optimizations</li>
