@@ -40,6 +40,7 @@ const Mail = () => {
 
               className="text-white font-semibold text-xs md:text-sm bg-primary_10 w-full h-12 md:h-14 rounded-xl flex items-center justify-center hover:bg-primary_10/90 transition-colors">
 
+
               Contact us
             </a>
           </div>

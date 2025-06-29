@@ -171,7 +171,8 @@ const Features = () => {
 
             <motion.div
               animate={bot1}
-              className="w-full md:w-[50%] hidden md:flex justify-center">
+              className="w-full md:w-[50%] hidden md:flex justify-center"
+            >
               <Image
                 src="/bot1.png"
                 alt="decenter image"
@@ -230,7 +231,8 @@ const Features = () => {
           <div className="h-[100%] flex flex-col md:flex-row items-center  ">
             <motion.div
               animate={bot3}
-              className="w-full md:w-[50%] flex justify-center md:hidden">
+              className="w-full md:w-[50%] flex justify-center md:hidden"
+            >
               <Image
                 src="/bot3.png"
                 alt="decenter image"
@@ -262,7 +264,8 @@ const Features = () => {
             </div>
             <motion.div
               animate={bot3}
-              className="w-full md:w-[50%] hidden md:flex justify-center ">
+              className="w-full md:w-[50%] hidden md:flex justify-center "
+            >
               <Image
                 src="/bot3.png"
                 alt="decenter image"
@@ -305,6 +308,7 @@ const Features = () => {
                 ref={vRef4}
 
                 className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose">
+
 
                 Just Curious About AI?
               </h2>
