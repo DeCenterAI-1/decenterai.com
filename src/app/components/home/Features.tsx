@@ -150,29 +150,28 @@ const Features = () => {
         <Globe1 />
         <div ref={vRef} className="absolute inset-0  w-[80%]  m-auto text-primary_1">
           <h2 className="font-logirentBold font-bold  text-xl md:text-3xl mt-[15%]">
-            Explore And Discover The Future of AI
+            We Empower You to Do More with AI
           </h2>
 
           <div className="h-[70%] flex flex-col md:flex-row items-center  mt-20 md:mt-0 ">
             <div className="w-full  md:w-[50%] ">
               <h2 className="font-logirentBold    text-xl md:text-3xl md:text-left leading-loose">
-                DeCenter Explorer
+                Building Infra?
               </h2>
 
               <p className="font-archivo  text-lg md:text-xl md:text-left">
-                Discover AI Projects Across Diverse Industries.
+                Access all you need to launch and scale.
               </p>
               <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                <li>Explore the AI landscape effortlesslys</li>
-                <li>Find innovative tools and applications</li>
-                <li>Stay informed about the latest AI projects.</li>
+                <li>Intelligent Resource Management System</li>
+                <li>Automated Workflow and Operations</li>
+                <li>AI-driven Monitoring and Analytics</li>
               </ul>
             </div>
 
             <motion.div
               animate={bot1}
-              className="w-full md:w-[50%] hidden md:flex justify-center"
-            >
+              className="w-full md:w-[50%] hidden md:flex justify-center">
               <Image
                 src="/bot1.png"
                 alt="decenter image"
@@ -207,15 +206,15 @@ const Features = () => {
             <div className="w-full md:w-[50%]  flex flex-col items-center">
               <div className="w-fit">
                 <h2 className="font-logirentBold  text-xl  md:text-3xl md:text-left leading-loose">
-                  DeCenter Application
+                  Running A platform?
                 </h2>
                 <p className="font-archivo text-lg  md:text-xl md:text-left">
-                  Train, Run, Fine-Tune and manage AI Models.
+                  We do the heavy lifting, you focus on growth
                 </p>
                 <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
                   <li>All-in-one AI development hub</li>
-                  <li>Model Security, Monetization and Analytics</li>
-                  <li>Seamless model customization and management.</li>
+                  <li>Model Security, Monetization and Analytics </li>
+                  <li>Seamless Model Customization and Management.</li>
                 </ul>
               </div>
             </div>
@@ -231,8 +230,7 @@ const Features = () => {
           <div className="h-[100%] flex flex-col md:flex-row items-center  ">
             <motion.div
               animate={bot3}
-              className="w-full md:w-[50%] flex justify-center md:hidden"
-            >
+              className="w-full md:w-[50%] flex justify-center md:hidden">
               <Image
                 src="/bot3.png"
                 alt="decenter image"
@@ -247,24 +245,22 @@ const Features = () => {
             <div className="w-full md:w-[50%] ">
               <h2
                 ref={vRef3}
-                className="font-logirentBold  text-xl md:text-left nd:text-3xl leading-loose"
-              >
-                DeCenter Services
+                className="font-logirentBold  text-xl md:text-left nd:text-3xl leading-loose">
+                Offering Services?
               </h2>
 
               <p className="font-archivo  text-lg  md:text-xl md:text-left">
-                Guidance for Startups, SMEs, and Enterprises in AI.
+                Enhance your offerings with one-click
               </p>
               <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                <li>Expert assistance in AI journey</li>
-                <li>Access turnkey or custom AI solutions</li>
-                <li>Comprehensive support and updates from AI specialists.</li>
+                <li>Access industry specific AI models and agents</li>
+                <li>Ready-to-use APIs for seamless integrations</li>
+                <li>Enterprise-grade data privacy, security, and compliance</li>
               </ul>
             </div>
             <motion.div
               animate={bot3}
-              className="w-full md:w-[50%] hidden md:flex justify-center "
-            >
+              className="w-full md:w-[50%] hidden md:flex justify-center ">
               <Image
                 src="/bot3.png"
                 alt="decenter image"
@@ -305,18 +301,17 @@ const Features = () => {
             <div className="w-full md:w-[50%]  ">
               <h2
                 ref={vRef4}
-                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose"
-              >
-                Decenter IncentIves
+                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose">
+                Just Curious About AI?
               </h2>
 
               <p className="font-archivo  text-lg md:text-xl md:text-left ">
-                Rewards and Encouragement for AI Developers.
+                Unified and accessible AI for everyone
               </p>
               <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                <li>Incentivized contributions and participation</li>{' '}
-                <li>Encourage innovation and collaboration</li>{' '}
-                <li>Recognition and rewards for excellence.</li>
+                <li>Interact with hundreds of AI models via our Super Agent</li>{' '}
+                <li>Explore, learn, and innovate, no technical expertise required</li>{' '}
+                <li>Enjoy personalized, secure, and private engagement</li>
               </ul>
             </div>
           </div>
@@ -345,8 +340,7 @@ const Features = () => {
             <div className="w-full md:w-[50%] ">
               <h2
                 ref={vRef5}
-                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose"
-              >
+                className="font-logirentBold  text-2xl md:text-3xl lg:text-4xl text-primary_1 text-center">
                 TestIng And AnalytIcs
               </h2>
 

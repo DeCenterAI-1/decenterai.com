@@ -26,25 +26,20 @@ const Mail = () => {
 
       <div className="absolute inset-0">
         <div className="w-[80%] m-auto flex flex-col justify-center items-center h-[60vh] mt-28 gap-6 ">
-          <h2 className="text-5xl text-white font-logirentBold text-center">
-            Explore Limitless Possibilities
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-white font-logirentBold text-center">
+            Ready to unlock the future?
           </h2>
-          <p className="text-primary_6 text-lg mt-2 font-archivo font-semibold text-center">
-            Discover the unlimited potential of AI with our cutting-edge explorer
+          <p className="text-primary_6 text-base md:text-lg mt-2 font-archivo font-semibold text-center">
+            Contact us today to discover the unlimited potential of AI.
           </p>
-          <div className="border border-primary_9 h-14 p-1 rounded-xl w-[90%] max-w-[450px] flex">
-            <form className="w-full h-full">
-              <input
-                placeholder="Email address"
-                className="w-[50%]  lg:w-[70%] h-full 
-                            rounded-l-xl bg-transparent text-white px-4
-                            focus:outline-none outline-none focus:ring-0 focus:border-none"
-              />
-              <button className="text-white font-semibold text-sm bg-primary_10 w-[50%] lg:w-[30%] h-full rounded-xl">
-                {' '}
-                Join Wait List
-              </button>
-            </form>
+          <div className="w-[90%] max-w-[450px] flex">
+            <a
+              href="https://form.typeform.com/to/oGnlAAyV"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-semibold text-xs md:text-sm bg-primary_10 w-full h-12 md:h-14 rounded-xl flex items-center justify-center hover:bg-primary_10/90 transition-colors">
+              Contact us
+            </a>
           </div>
         </div>
       </div>
