@@ -11,7 +11,9 @@ const Token = () => {
       </div>
       <div className="w-[80%]  h-[10%] m-auto flex flex-col md:flex-row justify-between items-center">
         <div className="w-fit text-primary_1">
+
           <h2 className="font-logirentBold text-2xl md:text-3xl lg:text-4xl leading-loose">Dcen tokens</h2>
+
 
           <div className="mt-12 md:mt-20 font-archivo text-base md:text-lg">
             <div className="py-2 pb-11 relative border-l  border-primary_8 ml-2   px-6">
