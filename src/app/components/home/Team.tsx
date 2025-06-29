@@ -76,17 +76,20 @@ const Team = () => {
             href={member.linkedin}
             target="_blank"
             className="text-primary_7 hover:text-primary_1 transition-colors"
-            aria-label={`${member.name}'s LinkedIn profile`}
-          >
+
+aria-label={`${member.name}'s LinkedIn profile`}>
+
+
+
             <AiOutlineLinkedin size={24} />
           </Link>
         </div>
 
         {/* Bio text with min-height to help even out cards */}
 
-        <p className="text-gray-400 text-xs sm:text-sm leading-relaxed flex-grow min-h-[3rem]">
-          {member.bio}
-        </p>
+
+<p className="text-gray-400 text-xs sm:text-sm leading-relaxed flex-grow min-h-[3rem]">{member.bio}</p>
+
       </div>
     </div>
   )
