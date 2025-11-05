@@ -15,11 +15,11 @@ const Team = () => {
       bio: 'Founded SureCrypto a blockchain service company with projects like GamerHub, Kryptotoday, Finality.',
     },
     {
-      name: 'Hiro',
+      name: 'Kosawat',
       role: 'CTO',
-      image: '/hiro.png',
-      linkedin: 'https://www.linkedin.com/in/laciferin/',
-      bio: 'Data scientist and machine learning engineer with over 5 years of experience at AIChats, PYOR, HyperTest.',
+      image: '/kosawat.png',
+      linkedin: 'https://www.linkedin.com/in/kosawat-sukchaya-10290427/',
+      bio: 'Tech co-founder in AI, Web3, and Esports, building and scaling products from concept to launch.',
     },
     {
       name: 'Glory',
@@ -120,7 +120,7 @@ const Team = () => {
 
             {/* William's card with conditional positioning */}
             <div className="col-span-1 sm:col-span-1 lg:col-span-1 lg:col-start-2">
-              <TeamCard member={bottomMember} />
+              {/* <TeamCard member={bottomMember} /> */}
             </div>
           </div>
         </div>
