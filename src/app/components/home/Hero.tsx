@@ -88,7 +88,7 @@ const Hero = () => {
               </ul>
             </div>
             <div className="h-[20%] text-center cursor-pointer">
-              <Link target="_blank" href="https://form.typeform.com/to/oGnlAAyV">
+              <Link target="_blank" href="https://app.decenterai.com">
                 <button className="bg-primary_11 w-full text-xs md:text-sm text-primary_1 font-semibold font-primaryArchivo py-2 px-3 cursor-pointer rounded-full hover:bg-primary_11/90 transition-colors">
                   Get Started
                 </button>
@@ -139,7 +139,7 @@ const Hero = () => {
           <div className=" w-[50%] md:w-[20%] h-full flex items-center justify-end">
             <Link
               target="_blank"
-              href="https://form.typeform.com/to/oGnlAAyV"
+              href="https://app.decenterai.com"
               className="hidden md:block cursor-pointer"
             >
               <button className="bg-primary_11 text-primary_1 font-semibold font-primaryArchivo py-2 px-3 cursor-pointer rounded-xl">
@@ -162,7 +162,7 @@ const Hero = () => {
             Integrate AI into Apps and Dapps Seamlessly.
           </p>
           <div className="flex space-x-9 md:space-x-10  md:mt-10">
-            <Link target="_blank" href="https://form.typeform.com/to/oGnlAAyV">
+            <Link target="_blank" href="https://app.decenterai.com">
               <button className="bg-primary_11 text-sm text-primary_1 font-normal font-primaryArchivo cursor-pointer rounded-3xl p-3 px-6">
                 Get Started
               </button>
