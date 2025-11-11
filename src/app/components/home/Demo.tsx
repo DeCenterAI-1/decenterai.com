@@ -21,7 +21,7 @@ const Demo = () => {
             <li>Integrated Data Services</li>
           </ul>
 
-          <Link target="_blank" href="https://form.typeform.com/to/oGnlAAyV">
+          <Link target="_blank" href="https://app.decenterai.com">
             <button className="bg-primary_10 text-primary_1 font-semibold text-xs md:text-sm py-2 px-3 mt-4 md:mt-6 cursor-pointer rounded-xl hover:bg-primary_10/90 transition-colors">
               Get Started
             </button>
