@@ -38,7 +38,8 @@ const Footer = () => {
             </Link>
             <Link
               href="https://twitter.com/decenteraicom?s=21&t=th7q1ztmiuaE2PoODm3k0A"
-              target="_blank">
+              target="_blank"
+            >
               <PiTwitterLogo size={25} />
             </Link>
           </div>
@@ -81,7 +82,8 @@ const Footer = () => {
             </Link>
             <Link
               href="https://twitter.com/decenteraicom?s=21&t=th7q1ztmiuaE2PoODm3k0A"
-              target="_blank">
+              target="_blank"
+            >
               <PiTwitterLogo size={25} />
             </Link>
           </div>

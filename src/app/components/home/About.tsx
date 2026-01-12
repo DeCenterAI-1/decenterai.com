@@ -69,7 +69,8 @@ const About = () => {
       //   opacity: opacityProgress,
       // }}
 
-      className=" h-[60vh] md:h-[80vh] relative z-0">
+      className=" h-[60vh] md:h-[80vh] relative z-0"
+    >
       <motion.div animate={star} className=" w-[80%] m-auto h-[10%] ">
         <Star1 />
       </motion.div>
@@ -103,7 +104,8 @@ const About = () => {
         </div>
         <motion.div
           // animate={star}
-          className=" p-2 w-[10%] h-full flex flex-col justify-end text-white ">
+          className=" p-2 w-[10%] h-full flex flex-col justify-end text-white "
+        >
           <Star2 />
           <Star3 />
         </motion.div>
@@ -121,7 +123,8 @@ const About = () => {
                   // }}
                   animate={globe}
                   ref={vRef}
-                  className="absolute inset-0  flex items-center justify-center">
+                  className="absolute inset-0  flex items-center justify-center"
+                >
                   <Globe />
                 </motion.div>
               </div>
@@ -130,7 +133,8 @@ const About = () => {
         </div>
         <motion.div
           // animate={star}
-          className=" p-2 w-[10%] h-full flex items-center ">
+          className=" p-2 w-[10%] h-full flex items-center "
+        >
           <Star5 />
         </motion.div>
       </div>
