@@ -156,23 +156,22 @@ const Features = () => {
           <div className="h-[70%] flex flex-col md:flex-row items-center  mt-20 md:mt-0 ">
             <div className="w-full  md:w-[50%] ">
               <h2 className="font-logirentBold    text-xl md:text-3xl md:text-left leading-loose">
-                Building Infra?
+                Unified AI Infrastructure
               </h2>
 
               <p className="font-archivo  text-lg md:text-xl md:text-left">
-                Access all you need to launch and scale.
+                Access all you need to launch and scale
               </p>
               <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                <li>Intelligent Resource Management System</li>
-                <li>Automated Workflow and Operations</li>
-                <li>AI-driven Monitoring and Analytics</li>
+                <li>Eliminates the need for multiple AI vendors and integrations</li>
+                <li>Reduces time-to-market for AI-powered products</li>
+                <li>Scales seamlessly from prototype to millions of users</li>
               </ul>
             </div>
 
             <motion.div
               animate={bot1}
-              className="w-full md:w-[50%] hidden md:flex justify-center"
-            >
+              className="w-full md:w-[50%] hidden md:flex justify-center">
               <Image
                 src="/bot1.png"
                 alt="decenter image"
@@ -207,15 +206,15 @@ const Features = () => {
             <div className="w-full md:w-[50%]  flex flex-col items-center">
               <div className="w-fit">
                 <h2 className="font-logirentBold  text-xl  md:text-3xl md:text-left leading-loose">
-                  Running A platform?
+                  Model Network & <br></br> Inference Routing
                 </h2>
                 <p className="font-archivo text-lg  md:text-xl md:text-left">
-                  We do the heavy lifting, you focus on growth
+                  One network, best models for every request
                 </p>
                 <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                  <li>All-in-one AI development hub</li>
-                  <li>Model Security, Monetization and Analytics </li>
-                  <li>Seamless Model Customization and Management.</li>
+                  <li>Optimizes quality, latency, and cost per inference</li>
+                  <li>Prevents vendor lock-in with model-agnostic execution</li>
+                  <li>Automatically adapts as better models become available</li>
                 </ul>
               </div>
             </div>
@@ -231,8 +230,7 @@ const Features = () => {
           <div className="h-[100%] flex flex-col md:flex-row items-center  ">
             <motion.div
               animate={bot3}
-              className="w-full md:w-[50%] flex justify-center md:hidden"
-            >
+              className="w-full md:w-[50%] flex justify-center md:hidden">
               <Image
                 src="/bot3.png"
                 alt="decenter image"
@@ -247,24 +245,22 @@ const Features = () => {
             <div className="w-full md:w-[50%] ">
               <h2
                 ref={vRef3}
-                className="font-logirentBold  text-xl md:text-left nd:text-3xl leading-loose"
-              >
-                Offering Services?
+                className="font-logirentBold  text-xl md:text-left md:text-3xl leading-loose">
+                Build-In Consumer <br></br> Economics
               </h2>
 
               <p className="font-archivo  text-lg  md:text-xl md:text-left">
-                Enhance your offerings with one-click
+                Pricing built for consumer scale
               </p>
               <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                <li>Access industry specific AI models and agents</li>
-                <li>Ready-to-use APIs for seamless integrations</li>
-                <li>Enterprise-grade data privacy, security, and compliance</li>
+                <li>Enables $0.01 per-inference pricing</li>
+                <li>Supports lower entry prices and usage-based billing</li>
+                <li>Makes AI products profitable at high volume</li>
               </ul>
             </div>
             <motion.div
               animate={bot3}
-              className="w-full md:w-[50%] hidden md:flex justify-center "
-            >
+              className="w-full md:w-[50%] hidden md:flex justify-center ">
               <Image
                 src="/bot3.png"
                 alt="decenter image"
@@ -305,18 +301,17 @@ const Features = () => {
             <div className="w-full md:w-[50%]  ">
               <h2
                 ref={vRef4}
-                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose"
-              >
-                Just Curious About AI?
+                className="font-logirentBold  text-xl md:text-3xl md:text-left leading-loose">
+                Privacy And Security
               </h2>
 
               <p className="font-archivo  text-lg md:text-xl md:text-left ">
-                Unified and accessible AI for everyone
+                Privacy-preserving, verifiable AI execution
               </p>
               <ul className="font-archivo leading-loose text-sm font-normal mt-6 list-disc pl-6">
-                <li>Interact with hundreds of AI models via our Super Agent</li>{' '}
-                <li>Explore, learn, and innovate, no technical expertise required</li>{' '}
-                <li>Enjoy personalized, secure, and private engagement</li>
+                <li>Tamper-proof inference logs for trust and compliance</li>
+                <li>User data remains off-chain and secure</li>
+                <li>Enables enterprise and regulated use cases</li>
               </ul>
             </div>
           </div>

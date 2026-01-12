@@ -12,21 +12,21 @@ const Team = () => {
       role: 'CEO',
       image: '/victor.png',
       linkedin: 'https://www.linkedin.com/in/victor-kaycee/',
-      bio: 'Founded SureCrypto a blockchain service company with projects like GamerHub, Kryptotoday, Finality.',
+      bio: 'Intel Venture Builder, Perplexity Fellow, with 7+ years of AI product leadership.',
     },
     {
       name: 'Kosawat',
       role: 'CTO',
       image: '/kosawat.png',
       linkedin: 'https://www.linkedin.com/in/kosawat-sukchaya-10290427/',
-      bio: 'Tech co-founder in AI, Web3, and Esports, building and scaling products from concept to launch.',
+      bio: 'MBA, ex-Antler tech co-founder, AI/Web3 architect with a proven 7-figure exit.',
     },
     {
       name: 'Glory',
       role: 'CMO',
       image: '/glory.png',
       linkedin: 'https://www.linkedin.com/in/glorylucas/',
-      bio: 'Founded Mindspace solutions, a Web3 marketing agency with clients like Private AI, YOM, Riva Metaverse',
+      bio: 'Web3 growth leader with $8M+ raised across startups; Founder Mindspace solutions.',
     },
   ]
 
@@ -76,8 +76,7 @@ const Team = () => {
             href={member.linkedin}
             target="_blank"
             className="text-primary_7 hover:text-primary_1 transition-colors"
-            aria-label={`${member.name}'s LinkedIn profile`}
-          >
+            aria-label={`${member.name}'s LinkedIn profile`}>
             <AiOutlineLinkedin size={24} />
           </Link>
         </div>
