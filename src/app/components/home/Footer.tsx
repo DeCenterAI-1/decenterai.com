@@ -38,8 +38,7 @@ const Footer = () => {
             </Link>
             <Link
               href="https://twitter.com/decenteraicom?s=21&t=th7q1ztmiuaE2PoODm3k0A"
-              target="_blank"
-            >
+              target="_blank">
               <PiTwitterLogo size={25} />
             </Link>
           </div>
@@ -82,8 +81,7 @@ const Footer = () => {
             </Link>
             <Link
               href="https://twitter.com/decenteraicom?s=21&t=th7q1ztmiuaE2PoODm3k0A"
-              target="_blank"
-            >
+              target="_blank">
               <PiTwitterLogo size={25} />
             </Link>
           </div>
@@ -92,11 +90,10 @@ const Footer = () => {
 
       <div className="w-[80%] h-[20%] border-t border-primary_8 flex flex-col md:flex-row m-auto mt-10">
         <div className="font-archivo font-semibold mt-6 text-primary_8 w-full md:w-[50%]">
-          DECENTER AI 2023. All right reserved.
+          DECENTER AI 2024. All right reserved.
         </div>
         <div className="font-archivo font-semibold flex space-x-8 justify-end mt-6 text-primary_8 w-full m:w-[50%]">
-          <p>Privacy</p>
-          <p>Policy</p>
+          <p>Privacy Policy</p>
           <p>Terms and Condition</p>
         </div>
       </div>
