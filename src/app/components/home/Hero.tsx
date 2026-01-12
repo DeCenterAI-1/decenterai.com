@@ -39,8 +39,7 @@ const Hero = () => {
   return (
     <section
       id="/"
-      className="min-h-[70vh] md:min-h-[80vh flex justify-end relative z-10"
-    >
+      className="min-h-[70vh] md:min-h-[80vh flex justify-end relative z-10">
       {menu && (
         <div className={`fixed top-0 w-full z-[10000] ${sticky ? 'mt-0' : ''}`}>
           <div className="w-[90%] h-[70vh] bg-primary_12 m-auto mt-2 border border-primary_8 rounded-xl shadow-[0px_-2px_16px_0px_#4a5568] py-6 px-4 text-primary_1">
@@ -100,8 +99,7 @@ const Hero = () => {
       <Spiral />
       <div className="absolute inset-0 bg-primary_13 bg-opacity-50 z-10">
         <div
-          className={`w-[80%] h-[10%] m-auto ${sticky ? 'fixed top-4 left-[10%] right-[10%] z-[9999]' : 'mt-[2%]'} rounded-full bg-primary_13 px-10 border-[1px] border-primary_12 bg-opacity-80 text-white flex justify-between transition-all duration-300 shadow-lg`}
-        >
+          className={`w-[80%] h-[10%] m-auto ${sticky ? 'fixed top-4 left-[10%] right-[10%] z-[9999]' : 'mt-[2%]'} rounded-full bg-primary_13 px-10 border-[1px] border-primary_12 bg-opacity-80 text-white flex justify-between transition-all duration-300 shadow-lg`}>
           <div className="w-[50%] md:w-[10%] relative">
             <Image
               src="/logo.png"
@@ -140,8 +138,7 @@ const Hero = () => {
             <Link
               target="_blank"
               href="https://app.decenterai.com"
-              className="hidden md:block cursor-pointer"
-            >
+              className="hidden md:block cursor-pointer">
               <button className="bg-primary_11 text-primary_1 font-semibold font-primaryArchivo py-2 px-3 cursor-pointer rounded-xl">
                 Get Started
               </button>
@@ -156,10 +153,11 @@ const Hero = () => {
 
         <div className="h-[85%] w-[80%] m-auto flex flex-col justify-center gap-6 ">
           <h1 className="font-logirentBold text-2xl md:text-5xl text-primary_1 leading-normal">
-            Decentralized AI Infrastructure <br /> for web2 and Web3 Applications.
+            Infrastructure Layer For <br /> Consumer AI Applications
           </h1>
           <p className="font-archivo text-sm text-primary_6 leading-loose">
-            Integrate AI into Apps and Dapps Seamlessly.
+            We help consumer AI startups scale to millions of users profitably without
+            exploding inference costs.
           </p>
           <div className="flex space-x-9 md:space-x-10  md:mt-10">
             <Link target="_blank" href="https://app.decenterai.com">
@@ -170,7 +168,7 @@ const Hero = () => {
 
             <Link target="_blank" href="https://decenter-ai.gitbook.io/whitepaper/">
               <button className="border border-primary_11 text-sm text-primary_1 font-normal font-primaryArchivo hover:border-white cursor-pointer rounded-3xl p-3 px-6">
-                Read More
+                View Documentation
               </button>
             </Link>
           </div>

@@ -20,22 +20,22 @@ const Token = () => {
               <div className="absolute -top-7 -left-3 p-1 border border-primary_8 rounded-full bg-primary_13 ">
                 <div className="rounded-full p-2 bg-primary_1"></div>
               </div>
-              Unified currency across all platform layers, simplifying all network
-              interactions.
+              Simplifies how consumer apps pay for inference, unlock features, and reward
+              participation.
             </div>
             <div className="py-2 pb-11 relative border-l  border-primary_8 ml-2   px-6">
               <div className="absolute -top-7 -left-3 p-1 border border-primary_8 rounded-full bg-primary_13 ">
                 <div className="rounded-full p-2 bg-primary_1"></div>
               </div>
-              Rewards contributors and resource providers for the value they add to the
-              network.
+              Grants startups access to higher-tier data services, advanced routing tools,
+              and platform upgrades.
             </div>
             <div className="py-2 pb-11 relative border-l  border-primary_8 ml-2   px-6">
               <div className="absolute -top-7 -left-3 p-1 border border-primary_8 rounded-full bg-primary_13 ">
                 <div className="rounded-full p-2 bg-primary_1"></div>
               </div>
-              Grants access to data services, advanced tools, platform upgrades, and
-              enterprise integrations.
+              Enables flexible, usage-based pricing so builders can start small, scale
+              sustainably.
             </div>
           </div>
         </div>
